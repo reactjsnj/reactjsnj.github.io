@@ -19,23 +19,11 @@ class App extends Component {
 
                 </div>
 
-                <div className="container" id="mc_embed_signup">
-
-
-                    <h3>Get Updates</h3>
-                    <p className="App-intro flow-text">
-                        This website is still a work in progress but in the mean time you can sign up for our newsletter!
-                    </p>
+                <div className="container">
                     <div className="row">
                         <form className="col s12" action="//github.us14.list-manage.com/subscribe/post?u=65dcb0ea5794679bfab70a5f1&amp;id=9785b34d91" method="post"  >
                             <div className="row">
-                                <div className="input-field col s12">
-                                    <input id="email" type="email" className="validate" />
-                                        <label for="email" data-error="That doesnt look like an email address." data-success="Looks good!">What is your email address?</label>
-                                </div>
-
-                                <input className="hide" type="text" name="b_65dcb0ea5794679bfab70a5f1_9785b34d91" value="" />
-                                <input className="cyan waves-effect waves-light btn" type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" />
+                                <a href="http://eepurl.com/cfFelj" className="cyan waves-effect waves-light btn btn-large"  target="_blank">Join the Meetup</a>
                             </div>
                         </form>
                     </div>
